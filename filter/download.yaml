@@ -1,0 +1,33 @@
+app:
+  - .dmg
+  - .pkg
+photo:
+  - .jpg
+  - .jpeg
+  - .gif
+  - .png
+  - .HEIC
+  - .PNG
+zip:
+  - .zip
+  - .tar
+mp3:
+  - .mp3
+  - .m4a
+video:
+  - .mp4
+pdf:
+  - .pdf
+  - .docx
+  - .caj
+  - .azw3
+  - .mobi
+  - .pages
+  - .txt
+  - .xlsx
+bt:
+  - .torrent
+data:
+  - .json
+  - .csv
+  - .opml

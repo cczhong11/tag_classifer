@@ -1,11 +1,11 @@
 import os
 from Mover.FileMover import FileMover
-from GeneralFilter import GeneralFilter
+from Filter.GeneralFilter import GeneralFilter
 from pathlib import Path
 PATH = str(Path(__file__).parent.absolute())
 
 def main():
-    general_filter = GeneralFilter(f"{PATH}/filter/bqb.yaml")
+    general_filter = GeneralFilter(f"{PATH}/filter_file/bqb.yaml")
     mover = FileMover(path="/Users/tczhong/Pictures/bqb/orgranized")
     
     for filename in os.listdir(mover.base_folder):

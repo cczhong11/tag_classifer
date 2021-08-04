@@ -5,7 +5,7 @@ from pathlib import Path
 PATH = str(Path(__file__).parent.absolute())
 
 def main():
-    general_filter = GeneralFilter(f"{PATH}/filter/download.yaml")
+    general_filter = GeneralFilter(f"{PATH}/filter_file/download.yaml")
     home_path = os.path.expanduser("~")
     mover = FileMover(path=f"{home_path}/Downloads")
     

@@ -8,9 +8,26 @@
   - tag name
   - list of string / regex
 
+example:
+
+```yaml
+a:
+  - aa
+  - bb
+```
+
+```
+from Filter.GeneralFilter import GeneralFilter
+general_filter = GeneralFilter(f"{PATH}/filter_file/bqb.yaml")
+```
 
 ## mover class
 
 - base folder
 - tag and folder mapping?
 - move function (tag, file) 
+
+```
+from Mover.FileMover import FileMover
+mover = FileMover(path="xxx")
+```

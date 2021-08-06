@@ -1,0 +1,1 @@
+python /Users/tczhong/Dropbox/TCCode/script/ospy/backup_dir.py --src /Users/tczhong/Dropbox/TCCode/script/TagClassifer --dst tczhong@10.0.0.143:~/TagClassifer

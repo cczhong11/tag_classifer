@@ -11,7 +11,7 @@ setuptools.setup(
    description='Filter file name with sub string',
    long_description=open('README.md').read(),
    install_requires=[
-       "ruamel-yaml"
+       "pyyaml"
    ],
    python_requires='>=3.7',
 )

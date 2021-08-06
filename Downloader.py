@@ -1,6 +1,6 @@
 import os
 from Mover.FileMover import FileMover
-from GeneralFilter import GeneralFilter
+from Filter.GeneralFilter import GeneralFilter
 from pathlib import Path
 PATH = str(Path(__file__).parent.absolute())
 
